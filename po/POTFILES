@@ -1,0 +1,4 @@
+data/org.boutemeur.teemu3.desktop.in
+data/org.boutemeur.teemu3.appdata.xml.in
+data/org.boutemeur.teemu3.gschema.xml
+src/teemu3-window.ui

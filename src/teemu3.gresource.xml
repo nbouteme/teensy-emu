@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/boutemeur/teemu3">
+    <file>teemu3-window.ui</file>
+    <file>microsd.png</file>
+    <file>remote.png</file>
+    <file>screenon.png</file>
+    <file>screenoff.png</file>
+    <file>button.png</file>
+  </gresource>
+</gresources>

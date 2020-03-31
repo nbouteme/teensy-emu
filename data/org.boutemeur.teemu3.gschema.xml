@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="teemu3">
+	<schema id="org.boutemeur.teemu3" path="/org/boutemeur/teemu3/">
+	</schema>
+</schemalist>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAdjustment" id="adjustment1">
+    <property name="upper">100</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkLayout" id="label">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="width">10</property>
+    <property name="height">10</property>
+    <child>
+      <object class="GtkImage" id="backlight">
+        <property name="width_request">486</property>
+        <property name="height_request">197</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="resource">/org/boutemeur/teemu3/screenoff.png</property>
+      </object>
+      <packing>
+        <property name="x">398</property>
+        <property name="y">197</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkLabel" id="lcdscreen">
+        <property name="width_request">416</property>
+        <property name="height_request">102</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">0123456789ABCDEF
+0123456789ABCDEF</property>
+        <attributes>
+          <attribute name="font-desc" value="Monospace 32"/>
+          <attribute name="foreground" value="#eeeeeeeeecec"/>
+        </attributes>
+      </object>
+      <packing>
+        <property name="x">441</property>
+        <property name="y">257</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkEventBox" id="sdevent">
+        <property name="width_request">100</property>
+        <property name="height_request">80</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="sdcard">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="resource">/org/boutemeur/teemu3/microsd.png</property>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="x">692</property>
+        <property name="y">414</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkEventBox" id="remoteevent">
+        <property name="width_request">100</property>
+        <property name="height_request">80</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="remote">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="resource">/org/boutemeur/teemu3/remote.png</property>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="x">53</property>
+        <property name="y">64</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkScrolledWindow" id="conscroll">
+        <property name="width_request">1280</property>
+        <property name="height_request">140</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="hscrollbar_policy">never</property>
+        <property name="max_content_width">1280</property>
+        <child>
+          <object class="GtkTextView" id="console">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="hexpand">False</property>
+            <property name="vexpand">False</property>
+            <property name="hadjustment">adjustment1</property>
+            <property name="vadjustment">adjustment1</property>
+            <property name="editable">False</property>
+            <property name="monospace">True</property>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="y">580</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkEventBox" id="bevent">
+        <property name="width_request">100</property>
+        <property name="height_request">80</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="resource">/org/boutemeur/teemu3/button.png</property>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="x">1006</property>
+        <property name="y">247</property>
+      </packing>
+    </child>
+  </object>
+  <object class="GtkHeaderBar" id="headerbar">
+    <property name="can_focus">False</property>
+    <property name="title">Hello, World!</property>
+    <property name="show_close_button">True</property>
+    <child>
+      <object class="GtkFileChooserButton" id="modchoose">
+        <property name="width_request">50</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="halign">start</property>
+        <property name="title" translatable="yes"/>
+        <property name="width_chars">15</property>
+      </object>
+    </child>
+  </object>
+</interface>
